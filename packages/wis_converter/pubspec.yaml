@@ -1,0 +1,20 @@
+name: wis_converter
+description: Library to handle unpacking and reformatting WIS' extremely stupid files.
+version: 0.0.1
+
+publish_to: none
+
+environment:
+  sdk: ">=3.5.0 <4.0.0"
+
+dependencies:
+  archive: 3.6.1
+  args: ^2.5.0
+  collection: ^1.18.0
+  path: ^1.9.0
+
+  # wis_base:
+  #   path: ../wis_base
+
+dev_dependencies:
+  test: ^1.25.8

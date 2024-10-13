@@ -1,0 +1,14 @@
+name: wis_base
+description: "Base library for WIS project"
+version: 1.0.0
+publish_to: none
+
+environment:
+  sdk: ">=3.5.0 <4.0.0"
+
+dependencies:
+  equatable: ^2.0.5
+  flutter:
+    sdk: flutter
+  font_awesome_flutter: ^10.7.0
+  path: ^1.9.0

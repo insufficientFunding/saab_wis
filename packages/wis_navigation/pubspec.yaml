@@ -1,0 +1,19 @@
+name: wis_navigation
+description: "Library for navigating the WIS file system for a flutter app"
+version: 0.0.1
+publish_to: "none"
+
+environment:
+  sdk: ">=3.5.0 <4.0.0"
+
+dependencies:
+  xml: ^6.5.0
+
+  wis_base:
+    path: ../wis_base
+  collection: ^1.18.0
+  html2md: ^1.3.2
+  html: ^0.15.4
+
+dev_dependencies:
+  test: ^1.25.8
